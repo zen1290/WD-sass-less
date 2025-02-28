@@ -1,0 +1,40 @@
+.header, .footer {
+  padding: 10px;
+  background-color: aqua;
+  margin: 10px;
+}
+
+.main {
+  padding: 50px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 80fr 20fr;
+}
+
+.maicontent, .sidebar, .twin {
+  padding: 40px;
+  background-color: greenyellow;
+}
+
+.sidebar {
+  background-color: purple;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.twin {
+  background-color: orange;
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: blue;
+}/*# sourceMappingURL=style.css.map */
